@@ -1,0 +1,29 @@
+project_id = "ngiwmpojxorgdozstwiw"
+
+# Dependencies
+/node_modules
+
+# Vite build output and cache
+/dist
+.vite-temp/
+
+# Supabase local development files
+/supabase/.branches
+/supabase/.temp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
